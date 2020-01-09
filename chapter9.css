@@ -25,7 +25,7 @@ main{
 }
 
 .introduce-box:last-child{
-  margin-right: 0;
+  margin-right: auto;
 }
 
 .introduce-img1{
@@ -65,17 +65,12 @@ main{
 @media screen and (max-width:768px) {
 
 main{
-  width: 90%;
+  width: 100%;
   margin: 50px auto;
 }
 
 .introduce-box {
   float:none;
-  margin-top: 20px;
-}
-
-.outer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}}
+  max-width: 90%;
+  margin: 20px auto;
+ }
